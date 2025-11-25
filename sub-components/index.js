@@ -51,7 +51,7 @@ import AllFAQsList from "sub-components/help-center/faq/AllFAQsList";
 // sub components for marketing/help-center/guide.js page
 import ArticlesCategoryCard from "sub-components/help-center/guide/ArticlesCategoryCard";
 
-// sub components for marketing/help-center/guide.js page
+// sub components for help-center default pages
 import ContactSupportSection from "sub-components/help-center/help-center-default/ContactSupportSection";
 import HelpCenterFAQs from "sub-components/help-center/help-center-default/HelpCenterFAQs";
 import HeroGradientHeader from "sub-components/help-center/help-center-default/HeroGradientHeader";
@@ -59,24 +59,24 @@ import HeroGradientHeader from "sub-components/help-center/help-center-default/H
 // sub components for marketing/help-center/support.js page
 import SupportForm from "sub-components/help-center/support/SupportForm";
 
-// sub components for marketing - help-center - all pages
+// marketing helpcenter shared
 import HeaderBreadcrumb from "sub-components/help-center/HeaderBreadcrumb";
 
-// sub components for marketing/landings/course-lead.js page
+// sub components for marketing/landings/course-lead.js
 import LeadTestimonialSection from "sub-components/landings/course-lead/TestimonialSection";
 import FeaturesWithBullets from "sub-components/landings/course-lead/FeaturesWithBullets";
 import CourseDescriptionSection from "sub-components/landings/course-lead/CourseDescriptionSection";
 import FAQsection from "sub-components/landings/course-lead/FAQsection";
 import YourInstructor from "sub-components/landings/course-lead/YourInstructor";
 
-// sub components for marketing/landings/landing-courses.js page
+// sub components for landing-courses.js
 import CoursesFeatures4Columns from "sub-components/landings/landing-courses/Features4Columns";
 import BrowseCategories from "sub-components/landings/landing-courses/BrowseCategories";
 import WorldClassInstructors from "sub-components/landings/landing-courses/WorldClassInstructors";
 import BecomeInstructor from "sub-components/landings/landing-courses/BecomeInstructor";
 import CoursesTestimonialSection from "sub-components/landings/landing-courses/TestimonialSection";
 
-// sub components for marketing/landings/landing-sass.js page
+// sub components for landing-sass.js
 import SASSFeatures4Columns from "sub-components/landings/landing-sass/Features4Columns";
 import AppIntegration from "sub-components/landings/landing-sass/AppIntegration";
 import CustomersTestimonials from "sub-components/landings/landing-sass/CustomersTestimonials";
@@ -84,17 +84,17 @@ import SimplePricingPlans from "sub-components/landings/landing-sass/SimplePrici
 import HeroLeftImage from "sub-components/landings/landing-sass/HeroLeftImage";
 import HeroRightImage from "sub-components/landings/landing-sass/HeroRightImage";
 
-// sub components for marketing/landings/request-access.js page
+// sub components for landing/request-access.js
 import Features2Columns from "sub-components/landings/request-access/Features2Columns";
 import RequestAccessTestimonialSection from "sub-components/landings/request-access/TestimonialSection";
 
-// sub components for marketing/instructor/add-new-course.js page
+// sub components for add-new-course.js
 import BasicInformation from "sub-components/instructor/add-new-course/steps/BasicInformation";
 import CoursesMedia from "sub-components/instructor/add-new-course/steps/CoursesMedia";
 import Curriculum from "sub-components/instructor/add-new-course/steps/Curriculum";
 import Settings from "sub-components/instructor/add-new-course/steps/Settings";
 
-// sub components for about.js page
+// about page
 import TeamGridRoundImages from "sub-components/about/TeamGridRoundImages";
 import FeaturesList from "sub-components/about/FeaturesList";
 import HeroContent from "sub-components/about/HeroContent";
@@ -102,60 +102,55 @@ import CTAButton from "sub-components/about/CTAButton";
 import Stat from "sub-components/about/Stat";
 import AboutGallery from "sub-components/about/AboutGallery";
 
-// sub components for contact.js page
+// contact page
 import ContactForm from "sub-components/contact/ContactForm";
 
-// sub components for home academy page ( home-academy.js - v2.0.0 )
+// home academy
 import AcademyStats from "sub-components/landings/home-academy/AcademyStats";
 import MostPopularCourses from "sub-components/landings/home-academy/MostPopularCourses";
 import WhatCustomersSay from "sub-components/landings/home-academy/WhatCustomersSay";
 
-// sub components for jobs-> upload resume steps ( v2.0.0 )
+// upload resume
 import BasicDetails from "sub-components/jobs/upload-resume/steps/BasicDetails";
 import Employment from "sub-components/jobs/upload-resume/steps/Employment";
 import Education from "sub-components/jobs/upload-resume/steps/Education";
 import Job from "sub-components/jobs/upload-resume/steps/Job";
 
-// sub components for jobs -> landing page ( landing-job.js - v2.0.0 )
+// job landing page
 import BrowseJobCategories from "sub-components/jobs/landing-job/BrowseJobCategories";
 import CustomerStories from "sub-components/jobs/landing-job/CustomerStories";
 import HowItWorks from "sub-components/jobs/landing-job/Process";
 import LatestJobOpening from "sub-components/jobs/landing-job/LatestJobOpening";
 import TopCompanies from "sub-components/jobs/landing-job/TopCompanies";
 
-// sub components for jobs -> post a job ( post-a-job.js - v2.0.0 )
-import JobPosterInfo from "sub-components/jobs/post-a-job/JobPosterInfo";
-import JobInfo from "sub-components/jobs/post-a-job/JobInfo";
-import CompanyInfo from "sub-components/jobs/post-a-job/CompanyInfo";
-
-// sub component for job filtering for company list page ( v2.0.0 )
+// company list filter
 import CompanyFilters from "sub-components/jobs/company-list/CompanyFilters";
 
-// sub component for job -> comapny pages header tabs ( v2.0.0 )
+// company common header tabs
 import CompanyCommonHeaderTabs from "sub-components/jobs/company/CommonHeaderTabs";
 
-// sub components for jobs -> job listing ( grid and list view - v2.0.0 )
+// job listing
 import JobFilters from "sub-components/jobs/job-listing/JobFilters";
 import JobsGridView from "sub-components/jobs/job-listing/JobsGridView";
 import JobsListView from "sub-components/jobs/job-listing/JobsListView";
 
-// sub component for quiz pages( v2.0.0 )
+// quiz
 import Question from "sub-components/quiz/Question";
 import QuizPagination from "sub-components/quiz/quiz-start/QuizPagination";
 import QuizProgress from "sub-components/quiz/quiz-start/QuizProgress";
 import QuizTimer from "sub-components/quiz/quiz-start/QuizTimer";
 
-// sub component for porfolio pages ( v2.2.0 )
+// portfolio
 import PortfolioItem from "sub-components/portfolio/PortfolioItem";
 
-// sub components for education landing page ( v2.2.0 )
+// education landing page
 import ExploreSkillCourses from "sub-components/landings/education/ExploreSkillCourses";
 import BuildingSkills from "sub-components/landings/education/BuildingSkills";
 import LearnLatestSkills from "sub-components/landings/education/LearnLatestSkills";
 import EducationFeaturesWithBullets from "sub-components/landings/education/FeaturesWithBullets";
 import UpcomingWebinars from "sub-components/landings/education/UpcomingWebinars";
 
-// sub components for mentor listing page ( v2.3.0)
+// mentor
 import MentorSingleHero from "sub-components/mentor/single/MentorSingleHero";
 import AboutMentor from "sub-components/mentor/single/AboutMentor";
 import MentorSkills from "sub-components/mentor/single/MentorSkills";
@@ -168,60 +163,59 @@ import SimilarMentors from "sub-components/mentor/single/SimilarMentors";
  * DASHBOARD SUB COMPONENTS
  */
 
-// sub components for dashboard/overview.js page
+// dashboard overview
 import PopularInstructor from "sub-components/dashboard/overview/PopularInstructor";
 import RecentCourses from "sub-components/dashboard/overview/RecentCourses";
 import Activity from "sub-components/dashboard/overview/Activity";
 
-// sub components for dashboard/analytics.js page
+// analytics
 import MostViewPages from "sub-components/dashboard/analytics/MostViewPages";
 import Browsers from "sub-components/dashboard/analytics/Browsers";
 import SocialMediaTraffic from "sub-components/dashboard/analytics/SocialMediaTraffic";
 
-// sub components for dashboard/courses/all-courses.js page
+// all courses
 import CoursesTable from "sub-components/dashboard/all-courses/CoursesTable";
 
-// sub components for dashboard/courses/courses-category.js page
+// courses category
 import AddNewCategoryPopup from "sub-components/dashboard/courses-category/AddNewCategoryPopup";
 
-// sub components for dashboard/user/instructor.js page
+// instructor pages
 import InstructorsGridView from "sub-components/dashboard/user/InstructorsGridCard";
 import InstructorsListItems from "sub-components/dashboard/user/InstructorsListItems";
 
-// sub components for dashboard/user/students.js page
+// students pages
 import StudentsGridCard from "sub-components/dashboard/user/StudentsGridCard";
 import StudentsListItems from "sub-components/dashboard/user/StudentsListItems";
 
-// sub components for /dashboard/cms/all-posts.js page
+// cms posts
 import PostsTable from "sub-components/dashboard/cms/all-posts/PostsTable";
 
-// sub components for /dashboard/projects/create-project.js page
+// create project
 import CreateProjectForm from "sub-components/dashboard/projects/create-project/CreateProjectForm";
 
-// sub components for /dashboard/projects/grid.js page
+// project grid
 import ProjectCard from "sub-components/dashboard/projects/grid/ProjectCard";
 import ProjectCard1 from "sub-components/dashboard/projects/grid/ProjectCard1";
 
-// sub components for /dashboard/projects/list.js page
+// project list
 import ProjectListTable from "sub-components/dashboard/projects/list/ProjectListTable";
 import NewProjectsGridData from "data/dashboard/projects/Newprojectslistdata";
-
 import GigsListTable from "sub-components/dashboard/projects/list/GigsListTable";
 
-// sub components for /dashboard/projects/* pages
+// offcanvas create project
 import OffcanvasCreateProjectForm from "sub-components/dashboard/projects/OffcanvasCreateProjectForm";
 import OffcanvasGigsProjectForm from "sub-components/dashboard/projects/OffcanvasGigsProjectForm";
 
-// sub components for /dashboard/projects/single/* pages
+// project single pages
 import CommonHeaderTabs from "sub-components/dashboard/projects/single/CommonHeaderTabs";
 
-// sub components for /dashboard/projects/single/budget page
+// budget
 import BudgetCard from "sub-components/dashboard/projects/single/budget/BudgetCard";
 import ExpensesChartCard from "sub-components/dashboard/projects/single/budget/ExpensesChartCard";
 import BudgetCategoryCard from "sub-components/dashboard/projects/single/budget/BudgetCategoryCard";
 import BudgetDetailsCard from "sub-components/dashboard/projects/single/budget/BudgetDetailsCard";
 
-// sub components for /dashboard/projects/single/overview pages
+// overview
 import ProjectSummary from "sub-components/dashboard/projects/single/overview/ProjectSummary";
 import BudgetSection from "sub-components/dashboard/projects/single/overview/BudgetSection";
 import UpcomingDeadlines from "sub-components/dashboard/projects/single/overview/UpcomingDeadlines";
@@ -229,46 +223,46 @@ import LaunchDate from "sub-components/dashboard/projects/single/overview/Launch
 import OverallProgressChart from "sub-components/dashboard/projects/single/overview/OverallProgressChart";
 import RecentActivity from "sub-components/dashboard/projects/single/overview/RecentActivity";
 
-// sub components for /dashboard/projects/single/task pages
+// task
 import TaskStats from "sub-components/dashboard/projects/single/task/TaskStats";
 import TaskSummaryChart from "sub-components/dashboard/projects/single/task/TaskSummaryChart";
 import TaskCompletionStatusChart from "sub-components/dashboard/projects/single/task/TaskCompletionStatusChart";
 import TaskbySectionsChart from "sub-components/dashboard/projects/single/task/TaskbySectionsChart";
 import UpcomingTaskList from "sub-components/dashboard/projects/single/task/UpcomingTaskList";
 
-// sub components for /dashboard/projects/single/files pages
+// files
 import FilesTable from "sub-components/dashboard/projects/single/files/FilesTable";
 
-// sub components for /dashboard/projects/single/summary pages
+// summary
 import Assignee from "sub-components/dashboard/projects/single/summary/Assignee";
 import ProjectSchedule from "sub-components/dashboard/projects/single/summary/ProjectSchedule";
 import ProjectProgress from "sub-components/dashboard/projects/single/summary/ProjectProgress";
 import ProjectDescription from "sub-components/dashboard/projects/single/summary/ProjectDescription";
 
-// sub components for /dashboard/projects/single/team pages
+// team
 import TeamGrid from "sub-components/dashboard/projects/single/team/TeamGrid";
 
-// sub components for /dashboard/chat page
+// chat
 import Sidebar from "sub-components/dashboard/chat/sidebar/Sidebar";
 import ChatBox from "sub-components/dashboard/chat/chatbox/ChatBox";
 
-// sub components for /dashboard/task-kanban page
+// kanban
 import KanbanColumn from "sub-components/dashboard/task-kanban/KanbanColumn";
 
-// sub components for /dashboard/calendar page v2.1.0
+// calendar
 import AddEditEvent from "sub-components/dashboard/calendar/AddEditEvent";
 
-// sub components for /dashboard/mail pages v2.1.0
+// mail
 import MailSidebar from "sub-components/dashboard/mail-app/MailSidebar";
 import MailRow from "sub-components/dashboard/mail-app/mail/MailRow";
 import MailDetailsBody from "sub-components/dashboard/mail-app/mail-details/MailDetailsBody";
 import MailDetailsFooter from "sub-components/dashboard/mail-app/mail-details/MailDetailsFooter";
 import MailDetailsHeader from "sub-components/dashboard/mail-app/mail-details/MailDetailsHeader";
 
-// sub components for datatable page v2.2.0
+// datatable
 import Pagination from "sub-components/dashboard/data-table/Pagination";
 
-// sub components for ecommerce pages v2.2.0
+// ecommerce
 import ColorOptions from "sub-components/dashboard/ecommerce/ColorOptions";
 import ProductBriefInfo from "sub-components/dashboard/ecommerce/ProductBriefInfo";
 import ProductCard from "sub-components/dashboard/ecommerce/ProductCard";
@@ -401,49 +395,19 @@ export {
   TopCompanies,
   CompanyFilters,
   CompanyCommonHeaderTabs,
-  JobPosterInfo,
-  JobInfo,
-  CompanyInfo,
   JobFilters,
   JobsGridView,
   JobsListView,
-  AcademyStats,
-  MostPopularCourses,
-  WhatCustomersSay,
   Question,
-  QuizProgress,
   QuizPagination,
+  QuizProgress,
   QuizTimer,
-  AddEditEvent,
-  MailSidebar,
-  MailRow,
-  MailDetailsBody,
-  MailDetailsFooter,
-  MailDetailsHeader,
   PortfolioItem,
-
-  // education landing page sub components
   ExploreSkillCourses,
   BuildingSkills,
   LearnLatestSkills,
   EducationFeaturesWithBullets,
   UpcomingWebinars,
-  Pagination,
-  ColorOptions,
-  ProductBriefInfo,
-  ProductCard,
-  ProductDetailsAccordion,
-  ProductGallery,
-  ProductGallery2,
-  ProductGridView,
-  RatingsReviews,
-  ProductsTable,
-  ProductCarousel,
-  OrdersTable,
-  OrderSummary,
-  BillingInformation,
-  PaymentSelection,
-  ShippingInformation,
   MentorSingleHero,
   AboutMentor,
   MentorSkills,
@@ -451,4 +415,29 @@ export {
   TabMembershipPlan,
   TabSessions,
   SimilarMentors,
+  AcademyStats,
+  MostPopularCourses,
+  WhatCustomersSay,
+  AddEditEvent,
+  MailSidebar,
+  MailRow,
+  MailDetailsBody,
+  MailDetailsFooter,
+  MailDetailsHeader,
+  Pagination,
+  ColorOptions,
+  ProductBriefInfo,
+  ProductCard,
+  ProductCarousel,
+  ProductDetailsAccordion,
+  ProductGallery,
+  ProductGallery2,
+  ProductGridView,
+  RatingsReviews,
+  ProductsTable,
+  OrdersTable,
+  OrderSummary,
+  BillingInformation,
+  PaymentSelection,
+  ShippingInformation,
 };
