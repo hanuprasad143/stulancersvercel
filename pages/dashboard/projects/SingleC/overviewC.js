@@ -5,14 +5,14 @@ import { Row, Col } from "react-bootstrap";
 // import sub components (fixed: removed "C" suffix)
 import {
   CommonHeaderTabs,
-  // ProjectSummary,
+  ProjectSummary,
   BudgetSection,
   UpcomingDeadlines,
   LaunchDate,
   OverallProgressChart,
   RecentActivity,
 } from "sub-components";
-import ProjectSummary from "@/sub-components/dashboard/projects/single/overview/ProjectSummary";
+// import ProjectSummary from "@/sub-components/dashboard/projects/single/overview/ProjectSummary";
 
 const ProjectOverview = () => {
   return (
