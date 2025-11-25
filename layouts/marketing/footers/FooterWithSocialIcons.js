@@ -1,0 +1,58 @@
+// import node module libraries
+import Link from "next/link";
+import { Col, Row } from "react-bootstrap";
+
+// import MDI icons
+import Icon from "@mdi/react";
+import {
+  mdiFacebook,
+  mdiTwitter,
+  mdiGithub,
+  mdiInstagram,
+  mdiLinkedin,
+} from "@mdi/js";
+
+const FooterWithSocialIcons = () => {
+  const currentYear = new Date().getFullYear();
+  return (
+    <Row>
+      <Col xl={{ offset: 1, span: 10 }} lg={12} md={12}>
+        <Row className="align-items-center mt-6 mb-4">
+          <Col md={6} xl={8} lg={8} xs={8}>
+            <p className="mb-0">
+              © Stulancers. {currentYear} All Rights Reserved.
+            </p>
+          </Col>
+          <Col
+            md={6}
+            xl={4}
+            lg={4}
+            xs={4}
+            className="d-flex justify-content-end"
+          >
+            <Link
+              href="/"
+              target="_blank"
+              className="text-muted text-primary-hover me-3  "
+            >
+              <Icon path={mdiFacebook} size={1} />
+            </Link>
+            <Link href="/" className="text-muted text-primary-hover me-3  ">
+              <Icon path={mdiTwitter} size={1} />
+            </Link>
+            <Link href="/" className="text-muted text-primary-hover me-3">
+              <Icon path={mdiGithub} size={1} />
+            </Link>
+            <Link href="/" className="text-muted text-primary-hover me-3">
+              <Icon path={mdiInstagram} size={1} />
+            </Link>
+            <Link href="/" className="text-muted text-primary-hover me-3">
+              <Icon path={mdiLinkedin} size={1} />
+            </Link>
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+  );
+};
+export default FooterWithSocialIcons;
