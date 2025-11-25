@@ -1,15 +1,17 @@
 // import node module libraries
-import { Fragment } from 'react';
-import { Col, Row, Container, Form } from 'react-bootstrap';
+import { Fragment } from "react";
+import { Col, Row, Container, Form } from "react-bootstrap";
 
 // import widget/custom components
-import { GeeksSEO } from 'widgets';
+import { GeeksSEO } from "widgets";
 
-// import sub components 
-import { JobPosterInfo, JobInfo, CompanyInfo } from 'sub-components';
+// ✅ Direct imports to avoid "not exported from sub-components" errors
+import JobPosterInfo from "@/sub-components/marketing/jobs/post-a-job/JobPosterInfo";
+import JobInfo from "@/sub-components/marketing/jobs/post-a-job/JobInfo";
+import CompanyInfo from "@/sub-components/marketing/jobs/post-a-job/CompanyInfo";
 
-// import your layout to override default layout 
-import JobListingLayout from 'layouts/marketing/JobListingLayout';
+// import your layout to override default layout
+import JobListingLayout from "layouts/marketing/JobListingLayout";
 
 const PostAJob = () => {
   return (
@@ -24,10 +26,14 @@ const PostAJob = () => {
               <Col md={12} lg={5}>
                 <div className="mb-12">
                   <h1 className="display-4 mb-3 fw-bold">Post a job today</h1>
-                  <p className="mb-0 lead">Ready to post a job for your company? Choose your job type below and fill all the job information</p>
+                  <p className="mb-0 lead">
+                    Ready to post a job for your company? Choose your job type
+                    below and fill all the job information
+                  </p>
                 </div>
               </Col>
             </Row>
+
             {/* form */}
             <Form>
               <JobPosterInfo />
@@ -40,10 +46,9 @@ const PostAJob = () => {
         </section>
       </main>
     </Fragment>
-
-  )
-}
+  );
+};
 
 PostAJob.Layout = JobListingLayout;
 
-export default PostAJob
+export default PostAJob;
