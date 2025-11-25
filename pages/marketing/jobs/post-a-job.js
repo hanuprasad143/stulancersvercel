@@ -6,9 +6,9 @@ import { Col, Row, Container, Form } from "react-bootstrap";
 import { GeeksSEO } from "widgets";
 
 // ✅ Direct imports to avoid "not exported from sub-components" errors
-import JobPosterInfo from "@/sub-components/marketing/jobs/post-a-job/JobPosterInfo";
-import JobInfo from "@/sub-components/marketing/jobs/post-a-job/JobInfo";
-import CompanyInfo from "@/sub-components/marketing/jobs/post-a-job/CompanyInfo";
+import JobPosterInfo from "./sub-components/marketing/jobs/post-a-job/JobPosterInfo";
+import JobInfo from "./sub-components/marketing/jobs/post-a-job/JobInfo";
+import CompanyInfo from "./sub-components/marketing/jobs/post-a-job/CompanyInfo";
 
 // import your layout to override default layout
 import JobListingLayout from "layouts/marketing/JobListingLayout";
