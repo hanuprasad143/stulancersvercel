@@ -2,8 +2,16 @@
 import { Fragment } from 'react';
 import { Row, Col } from 'react-bootstrap';
 
-// import sub components
-import { CommonHeaderTabs , ProjectSummaryC, BudgetSectionC, UpcomingDeadlinesC, LaunchDateC, OverallProgressChartC, RecentActivityC }  from 'sub-components';
+// import sub components (fixed: removed "C" suffix)
+import { 
+    CommonHeaderTabs,
+    ProjectSummary,
+    BudgetSection,
+    UpcomingDeadlines,
+    LaunchDate,
+    OverallProgressChart,
+    RecentActivity
+} from 'sub-components';
 
 const ProjectOverview = () => {
     return (
@@ -16,27 +24,30 @@ const ProjectOverview = () => {
                     <Row>
                         <Col xs={12} className="mb-4">
                             {/* project summary section */}
-                            <ProjectSummaryC />
+                            <ProjectSummary />
                         </Col>
+
                         <Col md={12} className="mb-4">
                             {/* project budget section */}
-                            <BudgetSectionC />
+                            <BudgetSection />
                         </Col>
+
                         <Col md={12} className="mb-4">
                             {/* upcoming deadlines table section */}
-                            <UpcomingDeadlinesC />
+                            <UpcomingDeadlines />
                         </Col>
                     </Row>
                 </Col>
+
                 <Col md={12} xl={4} xs={12}>
                     {/* launch date section */}
-                    <LaunchDateC />
+                    <LaunchDate />
 
-                    {/* overall progress chart  */}
-                    <OverallProgressChartC />
+                    {/* overall progress chart */}
+                    <OverallProgressChart />
 
-                    {/* recent activities section  */}
-                    <RecentActivityC />
+                    {/* recent activities section */}
+                    <RecentActivity />
                 </Col>
             </Row>
         </Fragment>
